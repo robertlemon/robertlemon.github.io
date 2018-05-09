@@ -261,3 +261,28 @@ p {
 .col-md-3 {
   padding-top: 0.5em;
 }
+
+
+.container .showroom .cars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container .showroom .cars img {
+  width: 99%;
+  height: 99%;
+  transition: all 2s;
+}
+
+.container .showroom .cars img:hover {
+  transform: scale(1.1);
+}
+
+.container .showroom .cars p {
+  color: white;
+}
+
+.container .showroom .cars .col-xl-5 {
+  margin-bottom: 2em;
+}
